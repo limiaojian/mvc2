@@ -1,11 +1,10 @@
 package com.mvc.service;
 
-import com.mvc.dao.UserMapper;
-import com.mvc.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
+import com.mvc.dao.UserMapper;
+import com.mvc.model.User;
 
 /**
  * @author miaojian_li
@@ -22,11 +21,11 @@ public class UserService {
 	}
 
 	public int insert(User user){
-		user.setCreatedate(new Date());
+		//user.setCreatedate(new Date());
 		return userMapper.insert(user);
 	}
 
-	public boolean login(User user){
+	public boolean selectOne(User user){
 		User result = userMapper.selectOne(user);
 		if(result != null){
 			return true;

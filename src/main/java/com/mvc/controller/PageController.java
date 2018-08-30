@@ -1,6 +1,7 @@
 package com.mvc.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -11,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/page")
 public class PageController {
 
-	@RequestMapping("/index")
-	public String index(){
-		return "login";
+	@RequestMapping("/{PageName}")
+	public String index(@PathVariable("PageName") String PageName){
+		return PageName;
 	}
 }
