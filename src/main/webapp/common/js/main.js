@@ -30,16 +30,7 @@ layui.use(['jquery', 'common', 'layer', 'element'], function() {
            }
 	});
 
-	common.larryCmsLoadJq(path + '/common/plus/jquery.leoweather.min.js', function() {
-		$('#weather').leoweather({
-			format: '，{时段}好！<span id="colock">现在时间是：<strong>{年}年{月}月{日}日 星期{周} {时}:{分}:{秒}</strong>，</span> <b>{城市}天气</b> {天气} {夜间气温}℃ ~ {白天气温}℃'
-		});
-		$('#closeInfo').on('click', function() {
-			$('#infoSwitch').hide();
-		});
-	});
-
-	common.larryCmsLoadJq(path + '/common/plus/echarts.min.js', function() {
+	common.larryCmsLoadJq('../common/js/echarts.min.js', function() {
 			var myChart = echarts.init(document.getElementById('larry_counts'));
 			option = {
 				title: {

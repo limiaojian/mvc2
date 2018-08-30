@@ -20,15 +20,6 @@
 </head>
 <body>
 <div class="layui-fluid larry-wrapper">
-	<div class="layui-row layui-col-space20" id="infoSwitch">
-		    <div class="layui-col-xs12  layui-col-sm12  layui-col-md12  layui-col-lg12">
-		    	<blockquote class="layui-elem-quote  head-con">
-                <div>尊敬的admin<span id="weather"></span></div>
-		    	<i class="larry-icon close" id="closeInfo">&#xea5c;</i>
-	        </blockquote>
-	    </div>	
-	</div>
-	<!-- 快捷图标导航 -->
 	<div class="layui-row layui-col-space20 larry-shortcut" id="shortcut">
 		<div class="layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2 larry-col">
             <section class="panel pos-r larry-ico-rotate">
@@ -91,27 +82,7 @@
             </section>
         </div>
 	</div>
-	
-
 	<div class="layui-row layui-col-space20">
-	        <!-- 提示 -->
-        <!-- <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 layui-col-lg12">
-        	<blockquote class="layui-elem-quote tips-con">
-                <p>
-                    LarryMS后台系统界面模版完全基于Layui编写，未使用layui以外其他任何第三方UI框架；layui是个人接触到的ui框架里最好用的没有之一，只有最；作为layui的忠实用户，在使用layui的过程中获的一些心得，体验了一把layui的栅格响应式布局，遂写成此套后台管理系统模版拿与大家交流；<span class="tip">限于本人精力和经验有限，此模版中所展现出的仅是layui的冰山一角，同时感谢大家的关注和支持，希望喜欢此套模版的朋友帮忙多给予建议，互相学习交流！</span>
-                </p>
-                
-                <p class="larry-p">
-                    Layui后台开发交流QQ群：<a href="https://jq.qq.com/?_wv=1027&amp;k=42fC4vT" target="_blank"><img border="0" src="images/group.png" title="LarryCMS官方交流群"></a>
-                    <a href="http://fly.layui.com/case/2017/" target="_blank" class="layui-btn layui-btn-mini layui-btn-danger">去点个赞！</a><span class="beizhu"><em class="layui-btn layui-btn-mini">LarryMS文档</em>【 此系统模版源码可以通过加群获得，仅限于学习交流使用，提供给群内伙伴无限制使用，但不可对larryMS直接打包转售传播，如果需要用作商业用途，请联系作者授权，谢谢！】</span>
-                </p>
-                <p class="larry-p">
-                    Layui开发文档：<a href="http://www.layui.com/doc/" target="_blank" class="layui-btn layui-btn-mini">乘此飞船前往</a><a href="http://layim.layui.com/" target="_blank" class="layui-btn layui-btn-mini">获取LayIM3.x授权</a><a href="http://wwww.layui.com/" target="_blank" class="layui-btn layui-btn-mini">官网下载Layui2.x</a>【惊艳的layui2.x犹如神来之笔，而这背后从编码、到文档、示例、到版本的release ...从始至终全凭贤心一人完成，惊为天人！Layui的完美无以复加！】
-                </p>
-	    		
-	        </blockquote>
-        </div> -->
-            <!-- 系统概览及升级日志 -->
 		<div class="layui-col-xs12 layui-col-sm12 layui-col-md6 layui-col-lg6">
 			<section class="larry-panel">
 				<div class="larry-panel-header">
@@ -230,10 +201,7 @@
                 </div>
             </section>
         </div>
-
-        
 	</div>
-
 </div>
 <!-- 加载js文件 -->
 <script type="text/javascript" src="../common/layui/layui.js"></script> 
