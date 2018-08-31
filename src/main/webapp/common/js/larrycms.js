@@ -19,13 +19,13 @@ layui.use(['jquery','larryElem','layer','common','form','larryMenu','larryTab'],
 
     // 菜单初始化
     // 方法1：
-	/*larryTab.menuSet({
-		  tyep:'GET',
-		  url: path + '/menu/dataList.do?t='+Math.random(),
+	larryTab.menuSet({
+		  type:'GET',
+		  url: '../common/js/menu.json',
 		  topFilter: 'TopMenu',
 		  lefFilter: 'LarrySide'
 	});
-    larryTab.menu();*/
+    larryTab.menu();
    
     // 1监听导航菜单点击事件 请注释2
     $('#larry_top_menu li').on('click',function(){

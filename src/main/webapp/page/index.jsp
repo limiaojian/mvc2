@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh">
 <head>
 	<meta charset="UTF-8">
 	<title>精斗云APP后台管理系统</title>
@@ -72,60 +72,7 @@
             <!-- 系统菜单 -->
             <div class="sys-menu-box" >
                 <ul class="layui-nav layui-nav-tree" id="larry_left_menu" lay-filter="LarrySide" data-group='0'>
-                    <li class="layui-nav-item layui-this">
-                    	<a data-url="main.html">
-                    		<i class="larry-icon">&#xe79c;</i>
-                    		<cite>后台首页</cite>
-                    	</a>
-                    </li>
-                    <li class="layui-nav-item">
-                    	<a>
-                    		<i class="larry-icon">&#xe9b6;</i>
-                    		<cite>我的面板</cite>
-                    		<span class="layui-nav-more"></span>
-                    	</a>
-                    	<dl class="layui-nav-child">
-                    		<dd>
-                    			<a data-url="/oneManage/user/personInfo.do">
-                    				<i class="larry-icon">&#xe689;</i>
-                    				<cite>个人信息</cite>
-                    			</a>
-                    		</dd>
-                    		<dd>
-                    			<a data-url="/oneManage/user/pwd.do">
-                    				<i class="larry-icon">&#xe7ce;</i>
-                    				<cite>修改密码</cite>
-                    			</a>
-                    		</dd>
-                    	</dl>
-                    </li>
-               		<li class="layui-nav-item">
-               			<a>
-               				<i class="larry-icon">&#xe64b;</i>
-               				<cite>系统设置</cite>
-               				<span class="layui-nav-more"></span>
-               			</a>
-               			<dl class="layui-nav-child">
-               				<dd class="">
-               					<a data-url="/oneManage/user/list.do">
-               						<i class="larry-icon" data-icon=""></i>
-               						<cite>用户管理</cite>
-               					</a>
-               				</dd>
-               				<dd class="">
-               					<a data-url="/oneManage/role/list.do">
-	               					<i class="larry-icon"></i>
-	               					<cite>角色管理</cite>
-	               				</a>
-	               			</dd>
-	               			<dd class="">
-	               				<a data-url="/oneManage/menu/list.do">
-	               					<i class="larry-icon"></i>
-	               					<cite>菜单管理</cite>
-	               				</a>
-	               			</dd>
-	               		</dl>
-	               	</li>
+                    
                 </ul>
             </div>
         </div>
